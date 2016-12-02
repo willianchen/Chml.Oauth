@@ -1,0 +1,18 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <a href="@(Tools.Auth.LinkinConfig.AuthCodeUrl + "?response_type=code&client_id=" + Tools.Auth.LinkinConfig.ClientId + "&redirect_uri=" + Tools.Auth.LinkinConfig.ReturnUrl + "&state=987654321&scope=r_basicprofile%20r_emailaddress")">登录Linkedin</a>
+    </div>
+</body>
+</html>
