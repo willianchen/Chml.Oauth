@@ -11,14 +11,12 @@ namespace Tools.Auth
         /// <summary>
         /// 客户端Id
         /// </summary>
-        public const string ClientId = "345446935820893";
-        // "1709485219280690";
+        public const string ClientId = "***";
 
         /// <summary>
         ///  秘钥
         /// </summary>
-        public const string ClientSecret = "3e97a6224a040f2bc44c3527f09f489f";
-        //"268d5cb6562dd915d7084718cd75b51b";
+        public const string ClientSecret = "***";
 
         /// <summary>
         /// 验证CodeURL
@@ -37,12 +35,12 @@ namespace Tools.Auth
         /// <summary>
         /// 返回URL
         /// </summary>
-        public const string ReturnUrl = "http://www.welfulloutdoors.com/auth/return_url_facebook.aspx";
+        public const string ReturnUrl = "http://www.authdemo.com/auth/return_url_facebook.aspx";
 
         /// <summary>
         /// 移动端返回URL
         /// </summary>
-        public const string MobileReturnUrl = "http://m.welfulloutdoors.com/auth/returnfacebook/";
+        public const string MobileReturnUrl = "http://m.authdemo.com/auth/returnfacebook/";
 
     }
 }

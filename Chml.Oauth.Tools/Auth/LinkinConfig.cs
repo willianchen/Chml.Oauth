@@ -11,12 +11,12 @@ namespace Tools.Auth
         /// <summary>
         /// 客户端Id
         /// </summary>
-        public const string ClientId = "777lxrt9rnwxt3";
+        public const string ClientId = "***";
 
         /// <summary>
         ///  秘钥
         /// </summary>
-        public const string ClientSecret = "KcLttSpSqPwtxo3j";
+        public const string ClientSecret = "***";
 
         /// <summary>
         /// 验证CodeURL
@@ -35,11 +35,11 @@ namespace Tools.Auth
         /// <summary>
         /// 返回URL
         /// </summary>
-        public const string ReturnUrl =  "http://www.welfulloutdoors.com/auth/returnlinkedin/";
+        public const string ReturnUrl =  "http://www.authdemo.com/auth/returnlinkedin/";
 
         /// <summary>
         /// 移动端返回URL
         /// </summary>
-        public const string MobileReturnUrl = "http://m.welfulloutdoors.com/auth/returnlinkedin/";
+        public const string MobileReturnUrl = "http://m.authdemo.com/auth/returnlinkedin/";
     }
 }
